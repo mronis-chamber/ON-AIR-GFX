@@ -1,0 +1,13 @@
+{
+  "name": "on-air-gfx-live-csv",
+  "version": "1.0.0",
+  "description": "Serves live Q&A as CSV for Google Sheets IMPORTDATA. Deploy to Railway (no Blaze).",
+  "main": "server.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
